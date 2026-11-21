@@ -169,8 +169,13 @@ a:hover { text-decoration-color: currentColor; }
 .btn-dark:hover { background: #333; }
 .btn-outline { background: var(--surface); border: 1px solid var(--line); }
 .btn-outline:hover { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.header-cta { justify-self: end; }
-.header-cta.glass-dark:hover { background: rgba(17, 17, 17, 0.92); }
+/* Email me: the same solid black pill as the nav's current section */
+.header-cta {
+  justify-self: end;
+  background: #000; color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.header-cta:hover { background: #222; }
 
 /* Scrolled down: the name pill and Email me step away, leaving only the nav */
 .brand-pill, .header-cta {

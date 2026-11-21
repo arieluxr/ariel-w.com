@@ -169,7 +169,7 @@ export default function Header({ name, location, photo, email, cvHref }) {
           </span>
         </Link>
         <PillNav active={active} onHome={onHome} />
-        <a href={`mailto:${email}`} className="btn header-cta glass glass-dark">
+        <a href={`mailto:${email}`} className="btn header-cta">
           Email me <span aria-hidden="true">↗</span>
         </a>
         <MenuNav active={active} onHome={onHome} email={email} cvHref={cvHref} />
