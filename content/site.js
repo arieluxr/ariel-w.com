@@ -75,12 +75,10 @@ export const news = [
 export const projects = [
   {
     slug: "teen-design-fiction",
-    imageFit: "contain", // collage with captions near the edges: show it whole
-    imageBg: "#ffffff", // matches the collage's white gutters
     title: "Teens imagine the future of food and health technology",
     mark: "Futures",
     year: "2026",
-    venue: "CHI 2026",
+    venue: "CHI 2026 Barcelona, Spain",
     acceptance: "25.3%",
     summary:
       "Design fiction workshops where teenagers wrote and built the health technologies they would want... and the ones they'd fear.",
@@ -120,7 +118,7 @@ export const projects = [
     title: "Food allergy identity, online and off",
     mark: "Identity",
     year: "2025",
-    venue: "CHI 2025",
+    venue: "CHI 2025 Yokohama, Japan",
     acceptance: "24.9%",
     summary:
       "Interviews with young adults with food allergies about how social media shapes an identity that switches on and off across everyday life.",
